@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B16531BA1C8AABCD00106507 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B16531B91C8AABCD00106507 /* main.m */; };
+		B16531BD1C8AABCD00106507 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B16531BC1C8AABCD00106507 /* AppDelegate.m */; };
+		B16531C01C8AABCD00106507 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B16531BF1C8AABCD00106507 /* ViewController.m */; };
+		B16531C31C8AABCD00106507 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B16531C11C8AABCD00106507 /* Main.storyboard */; };
+		B16531C51C8AABCD00106507 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B16531C41C8AABCD00106507 /* Assets.xcassets */; };
+		B16531C81C8AABCD00106507 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B16531C61C8AABCD00106507 /* LaunchScreen.storyboard */; };
+		B16531D31C8AABCD00106507 /* woboTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B16531D21C8AABCD00106507 /* woboTests.m */; };
+		B16531DE1C8AABCD00106507 /* woboUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B16531DD1C8AABCD00106507 /* woboUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B16531CF1C8AABCD00106507 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B16531AD1C8AABCD00106507 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B16531B41C8AABCD00106507;
+			remoteInfo = wobo;
+		};
+		B16531DA1C8AABCD00106507 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B16531AD1C8AABCD00106507 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B16531B41C8AABCD00106507;
+			remoteInfo = wobo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B16531B51C8AABCD00106507 /* wobo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wobo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B16531B91C8AABCD00106507 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B16531BB1C8AABCD00106507 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B16531BC1C8AABCD00106507 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B16531BE1C8AABCD00106507 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B16531BF1C8AABCD00106507 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B16531C21C8AABCD00106507 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B16531C41C8AABCD00106507 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B16531C71C8AABCD00106507 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B16531C91C8AABCD00106507 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B16531CE1C8AABCD00106507 /* woboTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = woboTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B16531D21C8AABCD00106507 /* woboTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = woboTests.m; sourceTree = "<group>"; };
+		B16531D41C8AABCD00106507 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B16531D91C8AABCD00106507 /* woboUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = woboUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B16531DD1C8AABCD00106507 /* woboUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = woboUITests.m; sourceTree = "<group>"; };
+		B16531DF1C8AABCD00106507 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B16531B21C8AABCD00106507 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B16531CB1C8AABCD00106507 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B16531D61C8AABCD00106507 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B16531AC1C8AABCD00106507 = {
+			isa = PBXGroup;
+			children = (
+				B16531B71C8AABCD00106507 /* wobo */,
+				B16531D11C8AABCD00106507 /* woboTests */,
+				B16531DC1C8AABCD00106507 /* woboUITests */,
+				B16531B61C8AABCD00106507 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B16531B61C8AABCD00106507 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B16531B51C8AABCD00106507 /* wobo.app */,
+				B16531CE1C8AABCD00106507 /* woboTests.xctest */,
+				B16531D91C8AABCD00106507 /* woboUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B16531B71C8AABCD00106507 /* wobo */ = {
+			isa = PBXGroup;
+			children = (
+				B16531BB1C8AABCD00106507 /* AppDelegate.h */,
+				B16531BC1C8AABCD00106507 /* AppDelegate.m */,
+				B16531BE1C8AABCD00106507 /* ViewController.h */,
+				B16531BF1C8AABCD00106507 /* ViewController.m */,
+				B16531C11C8AABCD00106507 /* Main.storyboard */,
+				B16531C41C8AABCD00106507 /* Assets.xcassets */,
+				B16531C61C8AABCD00106507 /* LaunchScreen.storyboard */,
+				B16531C91C8AABCD00106507 /* Info.plist */,
+				B16531B81C8AABCD00106507 /* Supporting Files */,
+			);
+			path = wobo;
+			sourceTree = "<group>";
+		};
+		B16531B81C8AABCD00106507 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B16531B91C8AABCD00106507 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B16531D11C8AABCD00106507 /* woboTests */ = {
+			isa = PBXGroup;
+			children = (
+				B16531D21C8AABCD00106507 /* woboTests.m */,
+				B16531D41C8AABCD00106507 /* Info.plist */,
+			);
+			path = woboTests;
+			sourceTree = "<group>";
+		};
+		B16531DC1C8AABCD00106507 /* woboUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B16531DD1C8AABCD00106507 /* woboUITests.m */,
+				B16531DF1C8AABCD00106507 /* Info.plist */,
+			);
+			path = woboUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B16531B41C8AABCD00106507 /* wobo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B16531E21C8AABCD00106507 /* Build configuration list for PBXNativeTarget "wobo" */;
+			buildPhases = (
+				B16531B11C8AABCD00106507 /* Sources */,
+				B16531B21C8AABCD00106507 /* Frameworks */,
+				B16531B31C8AABCD00106507 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wobo;
+			productName = wobo;
+			productReference = B16531B51C8AABCD00106507 /* wobo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B16531CD1C8AABCD00106507 /* woboTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B16531E51C8AABCD00106507 /* Build configuration list for PBXNativeTarget "woboTests" */;
+			buildPhases = (
+				B16531CA1C8AABCD00106507 /* Sources */,
+				B16531CB1C8AABCD00106507 /* Frameworks */,
+				B16531CC1C8AABCD00106507 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B16531D01C8AABCD00106507 /* PBXTargetDependency */,
+			);
+			name = woboTests;
+			productName = woboTests;
+			productReference = B16531CE1C8AABCD00106507 /* woboTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B16531D81C8AABCD00106507 /* woboUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B16531E81C8AABCD00106507 /* Build configuration list for PBXNativeTarget "woboUITests" */;
+			buildPhases = (
+				B16531D51C8AABCD00106507 /* Sources */,
+				B16531D61C8AABCD00106507 /* Frameworks */,
+				B16531D71C8AABCD00106507 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B16531DB1C8AABCD00106507 /* PBXTargetDependency */,
+			);
+			name = woboUITests;
+			productName = woboUITests;
+			productReference = B16531D91C8AABCD00106507 /* woboUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B16531AD1C8AABCD00106507 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = TV;
+				TargetAttributes = {
+					B16531B41C8AABCD00106507 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = TNKRP6VUK4;
+					};
+					B16531CD1C8AABCD00106507 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = TNKRP6VUK4;
+						TestTargetID = B16531B41C8AABCD00106507;
+					};
+					B16531D81C8AABCD00106507 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = TNKRP6VUK4;
+						TestTargetID = B16531B41C8AABCD00106507;
+					};
+				};
+			};
+			buildConfigurationList = B16531B01C8AABCD00106507 /* Build configuration list for PBXProject "wobo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B16531AC1C8AABCD00106507;
+			productRefGroup = B16531B61C8AABCD00106507 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B16531B41C8AABCD00106507 /* wobo */,
+				B16531CD1C8AABCD00106507 /* woboTests */,
+				B16531D81C8AABCD00106507 /* woboUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B16531B31C8AABCD00106507 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B16531C81C8AABCD00106507 /* LaunchScreen.storyboard in Resources */,
+				B16531C51C8AABCD00106507 /* Assets.xcassets in Resources */,
+				B16531C31C8AABCD00106507 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B16531CC1C8AABCD00106507 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B16531D71C8AABCD00106507 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B16531B11C8AABCD00106507 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B16531C01C8AABCD00106507 /* ViewController.m in Sources */,
+				B16531BD1C8AABCD00106507 /* AppDelegate.m in Sources */,
+				B16531BA1C8AABCD00106507 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B16531CA1C8AABCD00106507 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B16531D31C8AABCD00106507 /* woboTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B16531D51C8AABCD00106507 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B16531DE1C8AABCD00106507 /* woboUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B16531D01C8AABCD00106507 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B16531B41C8AABCD00106507 /* wobo */;
+			targetProxy = B16531CF1C8AABCD00106507 /* PBXContainerItemProxy */;
+		};
+		B16531DB1C8AABCD00106507 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B16531B41C8AABCD00106507 /* wobo */;
+			targetProxy = B16531DA1C8AABCD00106507 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B16531C11C8AABCD00106507 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B16531C21C8AABCD00106507 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B16531C61C8AABCD00106507 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B16531C71C8AABCD00106507 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B16531E01C8AABCD00106507 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B16531E11C8AABCD00106507 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B16531E31C8AABCD00106507 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = wobo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = aoguan.wobo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B16531E41C8AABCD00106507 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = wobo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = aoguan.wobo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B16531E61C8AABCD00106507 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = woboTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = aoguan.woboTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wobo.app/wobo";
+			};
+			name = Debug;
+		};
+		B16531E71C8AABCD00106507 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = woboTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = aoguan.woboTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wobo.app/wobo";
+			};
+			name = Release;
+		};
+		B16531E91C8AABCD00106507 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = woboUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = aoguan.woboUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = wobo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B16531EA1C8AABCD00106507 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = woboUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = aoguan.woboUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = wobo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B16531B01C8AABCD00106507 /* Build configuration list for PBXProject "wobo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B16531E01C8AABCD00106507 /* Debug */,
+				B16531E11C8AABCD00106507 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B16531E21C8AABCD00106507 /* Build configuration list for PBXNativeTarget "wobo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B16531E31C8AABCD00106507 /* Debug */,
+				B16531E41C8AABCD00106507 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B16531E51C8AABCD00106507 /* Build configuration list for PBXNativeTarget "woboTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B16531E61C8AABCD00106507 /* Debug */,
+				B16531E71C8AABCD00106507 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B16531E81C8AABCD00106507 /* Build configuration list for PBXNativeTarget "woboUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B16531E91C8AABCD00106507 /* Debug */,
+				B16531EA1C8AABCD00106507 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B16531AD1C8AABCD00106507 /* Project object */;
+}
